@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eva Lou Music</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Eva Lou</h1>
+      <h2>Singer-Songwriter</h2>
+
+      <div>
+        <img
+          class="portrait"
+          src="images/Headshot.jpeg"
+          alt="Eva Lou"
+          width="400"
+        />
+      </div>
+      <p>
+        Hi, I'm Eva! I am a 22 year old musician from Berlin. Singing has always
+        been my passion and I love to share my music with the world 😍
+      </p>
+      <h3>Check out my first single "feel okay again"</h3>
+      <p class="arrows">⬇ Click ⬇ here ⬇</p>
+      <div>
+        <a
+          href="https://www.youtube.com/watch?v=3-KiS25lvoc"
+          target="_blank"
+          title="feel okay again"
+        >
+          <img
+            class="cover"
+            src="Images/Dünen.JPG"
+            alt="Woman In The Dunes"
+            width="400"
+          />
+        </a>
+      </div>
+      <hr />
+      <p>
+        🙏🏼 If you enjoyed the music, please support me by buying the song on
+        <a
+          href="https://www.amazon.de/dp/B08L3PRTGT?tag=songwhip0f-21"
+          target="_blank"
+          title="Amazon"
+          class="buy"
+          ><strong>Amazon</strong></a
+        >
+        or
+        <a
+          href="https://music.apple.com/de/album/feel-okay-again/1534482475?i=1534482478&uo=4"
+          target="_blank"
+          title="iTunes"
+          class="buy"
+          ><strong>iTunes</strong></a
+        >
+        🙏🏼
+      </p>
+      <hr />
+      <h4>Don't miss any news!</h4>
+      <p>
+        If you want to be among the first to hear about new songs and concert
+        dates, sign up now for my newsletter 💌
+      </p>
+      <button><strong>Sign up</strong></button>
+      <div>
+        <span class="icons">
+          <a
+            href="https://www.instagram.com/evaloumusic/"
+            target="_blank"
+            title="Instagram"
+          >
+            <img src="Images/instagram.png" alt="Instagram" width="40" />
+          </a>
+        </span>
+        <span class="icons">
+          <a
+            href="https://www.youtube.com/channel/UCdl3cbWGIWcbR-r9bztFIOw"
+            target="_blank"
+            title="Youtube"
+          >
+            <img src="Images/youtube.png" alt="Youtube" width="40" />
+          </a>
+        </span>
+        <span class="icons">
+          <a
+            href="https://open.spotify.com/artist/1riouHplIXjYM1vRQd2xRZ?si=qp-UTt0AR-ikzqeI16_VNA"
+            target="_blank"
+            title="Spotify"
+          >
+            <img src="Images/spotify.png" alt="Spotify" width="40" />
+          </a>
+        </span>
+      </div>
+
+      <p class="coder"><em>Coded by Carla von Eicken</em></p>
+    </div>
+    <script>
+      function signUp() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        let consent = prompt("Can I send you my newsletter? (yes/no)");
+
+        if (consent === "yes") {
+          alert(`Thank you, ${name}, I will be in touch!`);
+        } else {
+          alert(`Sorry to see you go, ${name}!`);
+        }
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>

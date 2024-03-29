@@ -1,0 +1,79 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #e3f0f9;
+}
+.container {
+  max-width: 550px;
+  background: white;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+h1 {
+  color: #78793d;
+  font-size: 56px;
+  font-weight: bold;
+  margin: 20px;
+  line-height: 0;
+  padding: 40px 40px 20px 40px;
+}
+h2 {
+  margin: 20px;
+}
+h3 {
+  color: #78793d;
+  margin: 20px auto 10px auto;
+}
+
+.arrows {
+  font-size: 32px;
+  margin: 10px;
+  color: #30271e;
+}
+.portrait {
+  border-radius: 20px;
+}
+.cover {
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  margin: 10px auto 20px auto;
+}
+.cover:hover {
+  border: 1px solid #78793d;
+}
+.buy:hover {
+  text-decoration: underline;
+}
+hr {
+  opacity: 0.5;
+}
+button {
+  background: linear-gradient(
+    45deg,
+    rgba(105, 106, 54, 1) 0%,
+    rgba(203, 181, 147, 1) 100%
+  );
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  display: block;
+  margin: 30px auto;
+  padding: 16px 24px;
+  border: 1px solid #78793d;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  background: white;
+  color: #78793d;
+  cursor: pointer;
+}
+.icons {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
